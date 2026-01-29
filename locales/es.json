@@ -1,0 +1,95 @@
+{
+    "meta": {
+        "title": "Plantilla - Temario (ES)",
+        "description": "Ejemplo mínimo de la estructura JSON para contenidos en español"
+    },
+    "ui": {
+        "searchPlaceholder": "Buscar (tema, palabra clave)...",
+        "downloadPdf": "Descargar infografía",
+        "showExercises": "Mostrar ejercicios",
+        "genFlashcards": "Generar flashcards",
+        "resourcesTitle": "Recursos",
+        "videoTitle": "Video de ejemplo"
+    },
+    "categories": [
+        {
+            "id": "sistemas",
+            "title": "Sistemas Operativos",
+            "units": [
+                {
+                    "id": "sistemas-u1",
+                    "title": "Unidad 1: Introducción a los Sistemas Operativos",
+                    "summary": "Qué es un sistema operativo y sus funciones básicas.",
+                    "pdf": "pdfs/sistemas-u1.pdf",
+                    "exercises": [
+                        {
+                            "type": "text",
+                            "q": "Define en una frase qué es un sistema operativo.",
+                            "a": "Software que administra recursos hardware y provee servicios a los programas."
+                        },
+                        {
+                            "type": "mcq",
+                            "q": "¿Cuál es la función principal del kernel?",
+                            "options": [
+                                "Gestionar recursos y procesos",
+                                "Mostrar la interfaz gráfica",
+                                "Compilar programas"
+                            ],
+                            "answerIndex": 0,
+                            "explain": "El kernel gestiona recursos y procesos a bajo nivel."
+                        }
+                    ],
+                    "topics": [
+                        {
+                            "title": "1.1 Definición y concepto",
+                            "content": "Un sistema operativo (SO) es el software que administra hardware y ofrece servicios a las aplicaciones."
+                        },
+                        {
+                            "title": "1.2 Componentes principales",
+                            "content": "Procesos, memoria, entrada/salida y sistema de archivos. A continuación desglosamos un subtema.",
+                            "image": "assets/sample-image.svg"
+                        },
+                        {
+                            "title": "1.2.1 Núcleo (Kernel)",
+                            "content": "El kernel es la parte central del SO: gestiona procesos, memoria y acceso a dispositivos.",
+                            "video": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "telecomunicaciones",
+            "title": "Telecomunicaciones",
+            "units": [
+                {
+                    "id": "telecom-u1",
+                    "title": "Unidad 1: Sistema de comunicación",
+                    "summary": "Componentes, señales y modelos de comunicación",
+                    "pdf": "pdfs/telecom-u1.pdf",
+                    "exercises": [
+                        {
+                            "type": "text",
+                            "q": "Menciona dos impactos de las telecomunicaciones.",
+                            "a": "Conectividad global y acceso a la información."
+                        }
+                    ],
+                    "topics": [
+                        {
+                            "title": "1.1 Impacto de las Telecomunicaciones",
+                            "content": "Permiten intercambio de información a distancia, acceso a servicios, economía digital y comunicaciones en tiempo real."
+                        },
+                        {
+                            "title": "1.2 Componentes: Emisor, Receptor, Medios",
+                            "content": "El emisor genera la señal, el receptor la recibe; los medios pueden ser guiados (cobre, fibra) o no guiados (radio)."
+                        },
+                        {
+                            "title": "1.2.1 Códigos y Protocolos",
+                            "content": "Los códigos transforman la información en señales; los protocolos definen reglas de intercambio (p. ej. HDLC, TCP/IP)."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,95 @@
+{
+    "meta": {
+        "title": "Template - Syllabus (EN)",
+        "description": "Minimal example structure for English content"
+    },
+    "ui": {
+        "searchPlaceholder": "Search (topic, keyword)...",
+        "downloadPdf": "Download infographic",
+        "showExercises": "Show exercises",
+        "genFlashcards": "Generate flashcards",
+        "resourcesTitle": "Resources",
+        "videoTitle": "Example video"
+    },
+    "categories": [
+        {
+            "id": "systems",
+            "title": "Operating Systems",
+            "units": [
+                {
+                    "id": "systems-u1",
+                    "title": "Unit 1: Introduction to Operating Systems",
+                    "summary": "What an operating system is and its basic roles.",
+                    "pdf": "pdfs/systems-u1.pdf",
+                    "exercises": [
+                        {
+                            "type": "text",
+                            "q": "Define in one sentence what an OS is.",
+                            "a": "Software that manages hardware resources and provides services to programs."
+                        },
+                        {
+                            "type": "mcq",
+                            "q": "What is the kernel's main role?",
+                            "options": [
+                                "Manage processes and resources",
+                                "Render GUI windows",
+                                "Compile code"
+                            ],
+                            "answerIndex": 0,
+                            "explain": "The kernel manages processes, memory and low-level hardware access."
+                        }
+                    ],
+                    "topics": [
+                        {
+                            "title": "1.1 Definition and concept",
+                            "content": "An operating system (OS) is the software that manages hardware and provides services to applications."
+                        },
+                        {
+                            "title": "1.2 Main components",
+                            "content": "Processes, memory, I/O and file systems. Below is a subtopic.",
+                            "image": "assets/sample-image.svg"
+                        },
+                        {
+                            "title": "1.2.1 Kernel",
+                            "content": "The kernel is the central part of the OS: it manages processes, memory and device access.",
+                            "video": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "telecommunications",
+            "title": "Telecommunications",
+            "units": [
+                {
+                    "id": "telecom-u1",
+                    "title": "Unit 1: Communication System",
+                    "summary": "Components, signals and communication models",
+                    "pdf": "pdfs/telecom-u1.pdf",
+                    "exercises": [
+                        {
+                            "type": "text",
+                            "q": "Name two impacts of telecommunications.",
+                            "a": "Global connectivity and access to information."
+                        }
+                    ],
+                    "topics": [
+                        {
+                            "title": "1.1 Impact of Telecommunications",
+                            "content": "Enable long-distance information exchange, real-time services, and economic transformation."
+                        },
+                        {
+                            "title": "1.2 Components: Transmitter, Receiver, Media",
+                            "content": "The transmitter generates the signal, the receiver captures it; media can be guided (copper, fiber) or unguided (wireless)."
+                        },
+                        {
+                            "title": "1.2.1 Codes and Protocols",
+                            "content": "Codes encode information into signals; protocols define the rules of communication (e.g. HDLC, TCP/IP)."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

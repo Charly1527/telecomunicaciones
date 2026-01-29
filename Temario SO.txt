@@ -1,0 +1,41 @@
+Unidad 1 Introducción a los Sistemas Operativos
+1.1. Definición y concepto
+1.2. Funciones y características
+1.3. Evolución histórica
+1.4. Clasificación
+1.5. Estructura: niveles o estratos de diseño
+1.6. Núcleo
+Unidad 2 Administración de Procesos y del procesador
+2.1. Concepto de proceso
+2.2. Estados y transiciones de los procesos
+2.3. Procesos ligeros: Hilos o hebras
+2.4. Concurrencia y secuenciabilidad
+2.5. Niveles, objetivos y criterios de planificación
+2.6. Técnicas de administración del planificador
+Unidad 3 Administración de memoria
+3.1. Política y filosofía
+3.2. Memoria real
+3.3. Organización de memoria virtual
+3.4. Administración de memoria virtual
+Unidad 4 Administración de entrada/salida
+4.1. Dispositivos y manejadores de dispositivos
+4.2. Mecanismos y funciones de los manejadores de dispositivos
+4.3. Estructuras de datos para manejo de dispositivos
+4.4. Operaciones de Entrada /salida
+Unidad 5 Sistemas de archivos
+5.1. Concepto
+5.2. Noción de archivo real y virtual
+5.3. Componentes de un sistema de archivos
+5.4. Organización lógica y física
+5.5. Mecanismos de acceso a los archivos
+5.6. Manejo de espacio en memoria secundaria
+5.7. Modelo jerárquico
+5.8. Mecanismos de recuperación en caso de falla
+Unidad 6 Protección y seguridad
+6.1. Concepto y objetivos de protección y seguridad
+6.2. Clasificación aplicada a la seguridad
+6.3. Funciones del sistema de protección
+6.4. Implantación de matrices de acceso
+6.5. Protección basada en el lenguaje
+6.6. Validación y amenazas al sistema
+6.7. Cifrado

@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Material - Telecomunicaciones y Sistemas Operativos</title>
+    <link rel="shortcut icon" href="https://trinovara.com/logos/favicon-b.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header class="topbar">
+        <div class="brand">Material Universitario</div>
+        <div class="controls">
+            <label class="switch">
+                <input id="themeToggle" type="checkbox" aria-label="Cambiar tema" />
+                <span>🌙</span>
+            </label>
+            <select id="langSelect" aria-label="Seleccionar idioma">
+                <option value="es">Español</option>
+                <option value="en">English</option>
+            </select>
+        </div>
+    </header>
+
+    <div class="container">
+        <nav id="sidebar" class="sidebar" aria-label="Navegación del temario">
+            <input id="search" class="search" placeholder="Buscar (tema, palabra clave)..." />
+            <label for="categoryList" class="visually-hidden">Categoría</label>
+            <select id="categoryList" class="category-list" aria-label="Seleccionar categoría"></select>
+            <ul id="units" class="units"></ul>
+        </nav>
+
+        <main id="content" class="content" tabindex="0">
+            <article id="mainArticle">
+                <h1 id="pageTitle">Temario</h1>
+
+                <div class="unit-controls">
+                    <a id="downloadPdf" class="btn" href="#" hidden>Descargar PDF</a>
+                    <button id="showExercises" class="btn">Mostrar ejercicios</button>
+                    <button id="genFlashcards" class="btn">Generar flashcards</button>
+                </div>
+
+                <div id="topicArea"></div>
+
+                <div id="exercisesArea" class="exercises" hidden></div>
+            </article>
+            <aside class="extras">
+                <section>
+                    <h3 id="resourcesTitle">Recursos</h3>
+                    <img id="sampleImage" src="assets/sample-image.svg" alt="Imagen de ejemplo" />
+                    <div class="video">
+                        <h4 id="videoTitle">Video de ejemplo</h4>
+                        <!-- YouTube example embed -->
+                        <div class="video-wrap" id="videoWrap">
+                            <iframe width="320" height="180" src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                                title="YouTube video" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                        <p class="muted">Puedes añadir videos locales en la carpeta /videos o reemplazar los enlaces de
+                            YouTube.</p>
+                    </div>
+                </section>
+            </aside>
+        </main>
+    </div>
+
+    <footer class="footer">
+        <small>Creado como material de apoyo — personalízalo según tus necesidades.</small>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
